@@ -3,3 +3,7 @@ revanced-patcher = "21.0.0"
 # Tracking https://github.com/google/smali/issues/64.
 #noinspection GradleDependency
 smali = "3.0.5"
+guava = "33.2.1-jre"
+
+[libraries]
+guava = { module = "com.google.guava:guava", version.ref = "guava" }
