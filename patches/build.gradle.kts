@@ -17,6 +17,12 @@ dependencies {
     implementation(libs.guava)
 }
 
+kotlin {
+    compilerOptions {
+        freeCompilerArgs = listOf("-Xcontext-receivers")
+    }
+}
+
 publishing {
     repositories {
         maven {
