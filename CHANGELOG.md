@@ -1,3 +1,7 @@
+## [10.0.2]
+
+* Bump version
+
 ## [1.0.5]
 
 * Bump version
